@@ -1,0 +1,23 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.classic {
+  display: grid;
+  place-items: top;
+}
+.inputRounded .MuiOutlinedInput-root {
+  border-radius: 60px;
+  width: 470px;
+  font-weight: 400;
+}
+
+.button1 {
+  padding: 5px;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+.feeling {
+  padding: 5px;
+  margin-bottom: 10px;
+}
