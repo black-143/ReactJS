@@ -1,0 +1,11 @@
+.App {
+  font-family: sans-serif;
+  height: 650px;
+  width: 650px;
+}
+.square {
+  height: 45px;
+  width: 45px;
+  margin: 10px;
+  display: inline-block;
+}
