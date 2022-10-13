@@ -1,0 +1,10 @@
+.product div,
+img {
+  width: 250px;
+  height: 250px;
+  display: inline-block;
+}
+.items {
+  background-color: coral;
+  color: black;
+}

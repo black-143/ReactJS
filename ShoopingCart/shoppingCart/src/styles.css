@@ -1,0 +1,22 @@
+.shoppingcart {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.searchIcon {
+  width: 300px;
+}
+
+.cartIcon {
+  height: 7%;
+  width: 7%;
+  padding: 50px;
+  position: absolute;
+  top: 2px;
+  right: 4px;
+}
+.heading {
+  font-family: "Courier New", Courier, monospace;
+  font-size: large;
+  color: black;
+}
