@@ -1,0 +1,39 @@
+.App {
+  font-family: sans-serif;
+}
+
+.push {
+  margin: 10px;
+  padding: 10px;
+}
+.unshift {
+  margin: 10px;
+  padding: 10px;
+}
+.insert {
+  margin: 10px;
+  padding: 10px;
+}
+
+.pop {
+  margin: 10px;
+  padding: 10px;
+}
+.shift {
+  margin: 10px;
+  padding: 10px;
+}
+.remove {
+  margin: 10px;
+  padding: 10px;
+}
+.number{
+  margin: 10px;
+  padding: 10px;
+  font-size: 14px;
+}
+.removenumber{
+  margin: 10px;
+  padding: 10px;
+  font-size: 14px;
+}
