@@ -1,0 +1,59 @@
+.App {
+  font-family: sans-serif;
+}
+
+.chooseColor {
+  margin: 2px;
+  border: none;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 25px;
+}
+.mirro1 {
+  height: 45px;
+  width: 45px;
+  padding: 7px;
+  background-color: black;
+  margin: 10px;
+  display: inline-block;
+  border-radius: 20px;
+}
+.mirro2 {
+  height: 45px;
+  width: 45px;
+  padding: 7px;
+  background-color: lightgrey;
+  margin: 10px;
+  display: inline-block;
+  border-radius: 20px;
+}
+.mirro3 {
+  height: 45px;
+  width: 45px;
+  padding: 7px;
+  background-color: gray;
+  margin: 10px;
+  display: inline-block;
+  border-radius: 20px;
+}
+.mirro4 {
+  height: 45px;
+  width: 45px;
+  padding: 7px;
+  background-color: darkblue;
+  margin: 10px;
+  display: inline-block;
+  border-radius: 20px;
+}
+.mirro5 {
+  height: 45px;
+  width: 45px;
+  padding: 7px;
+  background-color: cornsilk;
+  margin: 10px;
+  display: inline-block;
+  border-radius: 20px;
+}
+.showCar img {
+  float: right;
+}
