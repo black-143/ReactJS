@@ -1,0 +1,40 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: lightgray;
+}
+.outerbox {
+  height: 300px;
+  width: 400px;
+  background-color: darkblue;
+  margin: 10px;
+  display: inline-block;
+}
+.actions {
+  padding: 10px;
+  align-items: center;
+  margin: 10px;
+  display: inline-block;
+  border-radius: 30px;
+  border-color: antiquewhite;
+}
+p {
+  background-color: white;
+  font-size: 28px;
+}
+.start {
+  padding: 2px;
+  margin: 5px;
+}
+.stop {
+  padding: 2px;
+  margin: 5px;
+}
+.resume {
+  padding: 2px;
+  margin: 5px;
+}
+.pause {
+  padding: 2px;
+  margin: 5px;
+}
