@@ -1,0 +1,11 @@
+.App {
+  font-family: sans-serif;
+}
+body {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+.input-field {
+  width: 75%;
+  margin: 0;
+}
