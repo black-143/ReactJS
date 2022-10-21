@@ -1,0 +1,11 @@
+.board {
+  width: 400px;
+  text-align: center;
+}
+.square {
+  height: 45px;
+  width: 45px;
+  margin: 0.2px;
+  padding: 0.5px;
+  display: inline-block;
+}
