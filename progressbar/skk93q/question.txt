@@ -1,0 +1,13 @@
+They give you a html button and when a user clicks a button
+
+it continually adds a progress bar onto the page
+
+The progress bar would then have to load in a given amount of time (think 3-5 sec)
+
+You also have to throttle how many progress bars can be running at once.
+
+For example, if the limit is 3 progress bars, and the user clicks on the
+button 4 times, the fourth progress bar only starts after the very first
+one finishes. You need proper scoping on this.
+
+

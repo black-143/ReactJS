@@ -1,0 +1,25 @@
+body {
+  font-family: sans-serif;
+}
+
+.outer {
+  border: 5px solid #ccc;
+  height: 20px;
+  border-radius: 20px;
+}
+.filler.active {
+  border-radius: 20px;
+  background-image: linear-gradient(#f1a165, #f36d0a);
+  height: 100%;
+  width: 100%;
+  animation: w 3s linear forwards;
+}
+
+@keyframes w {
+  0% {
+    width: 0%;
+  }
+  100% {
+    widows: 100%;
+  }
+}
