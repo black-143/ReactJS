@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.image-listing {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.image-listing > div {
+  flex: 1 33%;
+  width: 33%;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.image-listing > div img {
+  width: 100%;
+  border: 3px solid gray;
+}
+
+.image-listing > div.active img {
+  border-color: skyblue;
+}
+
+.image-slide > img {
+  width: 100%;
+  display: none;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.image-slide > img.active {
+  display: block;
+  animation-name: fade;
+  animation-duration: 0.75s;
+}
+
+.image-navigation {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-10%);
+  font-size: 3em;
+  cursor: pointer;
+}
+
+.next {
+  right: 20px;
+}
+
+.prev {
+  left: 20px;
+}
