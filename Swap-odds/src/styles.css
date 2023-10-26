@@ -1,0 +1,24 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page {
+  height: 100vh;
+}
+.container {
+  gap: 10px;
+}
+.cart-container {
+  border: 1px solid black;
+
+  flex-direction: column;
+  border-radius: 10px;
+}
+.swap-button {
+  padding: 10px;
+}
